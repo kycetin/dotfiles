@@ -1,0 +1,32 @@
+#!/usr/bin/env sh
+spacebar -m config height               26
+spacebar -m config spaces               on
+spacebar -m config clock               on
+spacebar -m config power                on
+ 
+spacebar -m config text_font         "DankMono Nerd Font Mono:Regular:16.0"
+spacebar -m config icon_font         "Font Awesome 5 Brands:Regular:16.0"
+
+spacebar -m config background_color  0x5f121212
+spacebar -m config foreground_color  0xffE1ad01
+#spacebar -m config background_color  0xffe8e9ec
+#spacebar -m config foreground_color  0xff33374c
+#spacebar -m config space_icon_strip                
+spacebar -m config space_icon_strip  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18
+spacebar -m config power_icon_strip  " " 
+spacebar -m config space_icon        1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18
+spacebar -m config clock_icon         " " 
+spacebar -m config dnd_icon           
+spacebar -m config clock_format      "%a, %b %-d, %Y %T"
+#spacebar -m config left_shell_command "wakatime --today"
+
+#spacebar -m config right_shell_command  "whoami"
+spacebar -m config title                off
+#spacebar -m config center_shell_command "whoami"
+#spacebar -m config center_shell         on
+
+spacebar -m config right_shell        off
+spacebar -m config right_shell_icon  " " 
+#spacebar -m config right_shell_command "$HOME/.config/spacebar/infos.py"
+spacebar -m config left_shell_command "date"
+spacebar -m config right_shell_command "$HOME/.config/spacebar/network.sh"

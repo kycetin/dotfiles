@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/Users/cetinkaya/.emacs.d'
+let g:netrw_dirhist_2='/Users/cetinkaya/projects/adabackend/config'
+let g:netrw_dirhist_1='/Users/cetinkaya/projects/adabackend/adabackend/templates/assets/vendor/@fortawesome/fontawesome-free/css'
+let g:netrw_dirhist_0='/Users/cetinkaya/projects/adabackend/adabackend/templates/assets/vendor/@fortawesome/fontawesome-free'
+let g:netrw_dirhist_9='/Users/cetinkaya/projects/adabackend/adabackend/templates/assets/vendor/@fortawesome'
+let g:netrw_dirhist_8='/Users/cetinkaya/projects/adabackend/requirements'
+let g:netrw_dirhist_7='/Users/cetinkaya/projects/adabackend/.git/hooks'
+let g:netrw_dirhist_6='/Users/cetinkaya/projects/adabackend/.git'
+let g:netrw_dirhist_5='/Users/cetinkaya/projects/adabackend/adabackend'
+let g:netrw_dirhist_4='/Users/cetinkaya/projects/adabackend/.git/hooks'
