@@ -1,5 +1,0 @@
-#!/bin/sh
-target_app="qutebrowser"
-
-osascript -e "tell application \"system events\" to set visible of first process ¬" \
-          -e "whose name is \"${target_app}\" to false"
